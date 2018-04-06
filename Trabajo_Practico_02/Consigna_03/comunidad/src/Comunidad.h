@@ -18,7 +18,7 @@ class Comunidad {
 private:
 	Persona personas[10];
 public:
-	Persona getPersonas();
+	Persona* getPersonas();
 	Comunidad();
 	void imput();
 	void show();

@@ -8,23 +8,29 @@
 #include "Persona.h"
 #include "Fecha.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
+	Fecha f1(06,05,1996);
 
-	for (int i=0; i<2; ++i) {
-		Persona q[i];
-		q[i].imput();
+	Persona p1(39533850, "Rodriguez", "Florencia", f1);
 
-		cout << q[i].getNombre()<< ", "<< q[i].getApellido()<< "--->"<< q[i].getDni()<< endl;
-		cout<< "Fecha de nacimiento: "<< q[i].getNacimiento().getDia()<< "/"<< q[i].getNacimiento().getMes()<<
-				"/"<< q[i].getNacimiento().getAnho()<< endl;
-	}
+	cout<< p1.getApellido()<< ", "<< p1.getApellido()<< endl;
+	cout<< p1.getDni()<< "---> "<< p1.getNacimiento().getDia()<< "/"
+			<< p1.getNacimiento().getMes()<< "/"<< p1.getNacimiento().getAnho()<< endl;
 
-	return 0;
+	//-------------------------------------------------------------------------------------
+	//Usando los metodos imput y show
+
+	Persona p2;
+	p2.imput();
+	//p2.show();
+
+	cout<< p2.getApellido()<< ", "<< p2.getApellido()<< endl;
+	cout<< p2.getDni()<< "---> "<< p2.getNacimiento().getDia()<< "/"
+			<< p2.getNacimiento().getMes()<< "/"<< p2.getNacimiento().getAnho()<< endl;
 
 	return 0;
 }
-
-

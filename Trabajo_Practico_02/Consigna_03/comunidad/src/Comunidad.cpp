@@ -12,7 +12,7 @@
 
 using namespace std;
 
-Persona Comunidad::getPersonas(){
+Persona* Comunidad::getPersonas() {
 	return personas;
 }
 
@@ -24,6 +24,7 @@ Comunidad::Comunidad() {
 void Comunidad::imput() {
 	cout<< "Ingrese 10 personas: "<< endl;
 	for (int i=0; i<10; ++i) {
+
 		personas[i].imput();
 	}
 }
