@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : complejos.cpp
+// Name        : complejo.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice

@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : personas.cpp
+// Name        : persona.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
