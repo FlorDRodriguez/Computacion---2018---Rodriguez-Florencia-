@@ -8,6 +8,8 @@
 #ifndef FECHA_H_
 #define FECHA_H_
 
+using namespace std;
+
 class Fecha {
 private:
 	int dia;

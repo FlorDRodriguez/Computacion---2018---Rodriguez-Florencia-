@@ -8,6 +8,8 @@
 #ifndef FECHA_H_
 #define FECHA_H_
 
+using namespace std;
+
 class Fecha {
 private:
 	int dia;
@@ -21,8 +23,10 @@ public:
 	void setDia(int dia);
 	int getMes() const;
 	void setMes(int mes);
+
 	Fecha();//constructor vacio
 	Fecha(int, int, int);//constructor sobrecargado
+
 	//metodos que pide
 	void imput();
 	void show();

@@ -40,4 +40,3 @@ int main() {
 	cout<< "Sumandole 100 dias: "<< f2.getDia()<< "/" <<f2.getMes() <<"/" <<f2.getAnho() <<endl;
 	return 0;
 }
-
