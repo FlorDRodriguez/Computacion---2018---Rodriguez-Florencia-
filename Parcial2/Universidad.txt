@@ -1,0 +1,15 @@
+#materia Calculo Ingenieria 1 Berliansky
+#alumno Florencia Rodriguez 54049
+#examen Calculo 10/04/2018 8 1 35
+#examen Calculo 10/05/2018 6 5 40
+#examen Calculo 10/06/2018 7 2 15
+#alumno Eliana Fontana 54050
+#examen Calculo 10/04/2018 10 1 35
+#examen Calculo 10/05/2018 6 5 40
+#examen Calculo 10/06/2018 8 2 15
+#materia Economia Economicas 1 Garcia
+#alumno Luciana Marquez 54035
+#examen Economia 25/04/2018 8 1 35
+#materia Estadstica Economicas 1 Ripari
+#alumno Luciana Marquez 54035
+#examen Estadistica 10/05/2018 10 1 35

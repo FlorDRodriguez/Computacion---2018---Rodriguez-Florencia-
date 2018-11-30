@@ -20,6 +20,7 @@ private:
 public:
 	Persona* getPersonas();
 	Comunidad();
+
 	void imput();
 	void show();
 };

@@ -18,13 +18,14 @@ Persona* Comunidad::getPersonas() {
 
 Comunidad::Comunidad() {
 	// TODO Auto-generated constructor stub
-	//personas[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+	for (int i=0; i<10; ++i) {
+
+	}
 }
 
 void Comunidad::imput() {
 	cout<< "Ingrese 10 personas: "<< endl;
 	for (int i=0; i<10; ++i) {
-
 		personas[i].imput();
 	}
 }

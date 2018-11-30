@@ -45,8 +45,8 @@ void Persona::setNombre(string nombre) {
 
 Persona::Persona() { //constructor vacio
 	// TODO Auto-generated constructor stub
-	nombre = "";
-	apellido = "";
+	nombre = " ";
+	apellido = " ";
 	dni = 0;
 }
 

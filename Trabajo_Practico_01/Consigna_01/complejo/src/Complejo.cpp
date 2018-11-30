@@ -24,7 +24,6 @@ int Complejo::getReal() const {
 void Complejo::setReal(int real) {
 	this->real = real;
 
-
 }
 
 void Complejo::imput() {
@@ -35,5 +34,5 @@ void Complejo::imput() {
 }
 
 void Complejo::show() {
-	cout<< this->real<< "+"<< this->imag<< "i"<< endl;
+	cout<< "El complejo es: "<< this->real<< "+"<< this->imag<< "i"<< endl;
 }

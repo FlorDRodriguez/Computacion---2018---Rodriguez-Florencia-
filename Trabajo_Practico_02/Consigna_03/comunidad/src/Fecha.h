@@ -8,6 +8,8 @@
 #ifndef FECHA_H_
 #define FECHA_H_
 
+#include <iostream>
+
 using namespace std;
 
 class Fecha {
@@ -30,17 +32,6 @@ public:
 	//metodos que pide
 	void imput();
 	void show();
-
-	//metodos que comparan
-	bool operator<(Fecha);
-	bool operator>(Fecha);
-	bool operator<=(Fecha);
-	bool operator>=(Fecha);
-	bool operator==(Fecha);
-	bool operator!=(Fecha);
-
-	//metodo que suma dias a la fecha
-	Fecha operator+=(int);
 };
 
 #endif /* FECHA_H_ */

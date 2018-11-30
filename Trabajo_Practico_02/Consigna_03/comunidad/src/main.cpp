@@ -22,7 +22,7 @@ int main() {
 	for (int i=0; i<10; ++i){
 		cout<< c[i].getApellido()<< ", "<< c[i].getNombre()<< endl;
 		cout<< c[i].getDni()<< "--->" << c[i].getNacimiento().getDia()
-				<< "/"<< c[i].getNacimiento().getMes()<< c[i].getNacimiento().getAnho()<< endl;
+				<< "/"<< c[i].getNacimiento().getMes()<< "/"<< c[i].getNacimiento().getAnho()<< endl;
 	}
 
 	return 0;
